@@ -87,10 +87,9 @@ alphabetical order. Answer with the sorted list.
 
 Write your code below and put the answer into the variable ANSWER.
 """
-list6 = ["Dafoe", "Sheen", "Berenger", "Depp", "Whitaker"]
-list6.sort()
 
-ANSWER = list6
+
+ANSWER = "Replace this text with the variable holding the answer."
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -105,10 +104,9 @@ sorted list.
 
 Write your code below and put the answer into the variable ANSWER.
 """
-list7 = ["Dafoe", "Sheen", "Berenger", "Depp", "Whitaker"]
-list7.sort(reverse=True)
 
-ANSWER = list7
+
+ANSWER = "Replace this text with the variable holding the answer."
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -123,11 +121,8 @@ list.
 
 Write your code below and put the answer into the variable ANSWER.
 """
-list8 = ["wasp", "fly", "butterfly", "bumblebee", "mosquito"]
-sec_item = list8.pop(1)
-last_item = list8.pop(-1)
-list9 = [sec_item, last_item]
-ANSWER = list9
+
+ANSWER = "Replace this text with the variable holding the answer."
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -141,10 +136,9 @@ ozelot, bobcat, cougar]. Answer with the modified list.
 
 Write your code below and put the answer into the variable ANSWER.
 """
-list10 = ["lion", "tiger", "ozelot", "bobcat", "cougar"]
-list10.remove("bobcat")
 
-ANSWER = list10
+
+ANSWER = "Replace this text with the variable holding the answer."
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -165,9 +159,8 @@ Use a built-in function to sum all numbers in the list: [123, 4, 125, 69,
 
 Write your code below and put the answer into the variable ANSWER.
 """
-list11 = [123, 4, 125, 69, 155]
-sum_list11 = sum(list11)
-ANSWER = sum_list11
+
+ANSWER = "Replace this text with the variable holding the answer."
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -182,9 +175,8 @@ most one decimal.
 
 Write your code below and put the answer into the variable ANSWER.
 """
-list12 = [123, 4, 125, 69, 155]
-avg_list12 = sum(list12)/len(list12)
-ANSWER = avg_list12
+
+ANSWER = "Replace this text with the variable holding the answer."
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -198,11 +190,9 @@ Use a built-in function to get the lowest number in the list: [67, 50, 2,
 
 Write your code below and put the answer into the variable ANSWER.
 """
-list13 = [67, 50, 2, 39, 15]
-list13.sort()
-low_list13 = list13.pop(0)
 
-ANSWER = low_list13
+
+ANSWER = "Replace this text with the variable holding the answer."
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -217,9 +207,8 @@ fixed string.
 
 Write your code below and put the answer into the variable ANSWER.
 """
-string1 = "The?grass?is?growing"
-string2 = " ".join(string1.split("?"))
-ANSWER = string2
+
+ANSWER = "Replace this text with the variable holding the answer."
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -234,10 +223,8 @@ element at index 2.
 
 Write your code below and put the answer into the variable ANSWER.
 """
-string3 = "For every minute you are angry you lose sixty seconds of happiness."
-string4 = string3.split(" ")
-index2_string4 = string4.pop(2)
-ANSWER = index2_string4
+
+ANSWER = "Replace this text with the variable holding the answer."
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -251,9 +238,8 @@ element with 'green, purple'. Answer with the modified list.
 
 Write your code below and put the answer into the variable ANSWER.
 """
-list14 = ["a", "b", "c", "d", "e"]
-list14[1:3] = ["green", "purple"]
-ANSWER = list14
+
+ANSWER = "Replace this text with the variable holding the answer."
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -267,10 +253,9 @@ with 'green, purple'. Answer with the modified list.
 
 Write your code below and put the answer into the variable ANSWER.
 """
-list15 = ["a", "b", "c", "d", "e"]
-list15[-2:] = ["green", "purple"]
 
-ANSWER = list15
+
+ANSWER = "Replace this text with the variable holding the answer."
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -284,10 +269,9 @@ after the third element. Answer with the modified list.
 
 Write your code below and put the answer into the variable ANSWER.
 """
-list16 = ["a", "b", "c", "d", "e"]
-list16[3:3] = ["green", "purple"]
 
-ANSWER = list16
+
+ANSWER = "Replace this text with the variable holding the answer."
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -301,9 +285,8 @@ element. Answer with the modified list.
 
 Write your code below and put the answer into the variable ANSWER.
 """
-list17 = ["dvd", "mp3", "blu-ray", "vhs", "cd"]
-del list17[0]
-ANSWER = list17
+
+ANSWER = "Replace this text with the variable holding the answer."
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -317,9 +300,8 @@ and third element. Answer with the modified list.
 
 Write your code below and put the answer into the variable ANSWER.
 """
-list18 = ["dvd", "mp3", "blu-ray", "vhs", "cd"]
-del list18[1:3]
-ANSWER = list18
+
+ANSWER = "Replace this text with the variable holding the answer."
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -334,10 +316,9 @@ of 'list1 is list2'.
 
 Write your code below and put the answer into the variable ANSWER.
 """
-list1 = ["d", "c", "b", "a", "e"]
-list2 = ["d", "c", "b", "a", "e"]
 
-ANSWER = list1 is list2
+
+ANSWER = "Replace this text with the variable holding the answer."
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -352,9 +333,9 @@ is list3'.
 
 Write your code below and put the answer into the variable ANSWER.
 """
-list3 = list1
 
-ANSWER = list1 is list3
+
+ANSWER = "Replace this text with the variable holding the answer."
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -368,9 +349,9 @@ to 'x'. Answer with 'list3'.
 
 Write your code below and put the answer into the variable ANSWER.
 """
-list1[0:1] = "x"
 
-ANSWER = list3
+
+ANSWER = "Replace this text with the variable holding the answer."
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -393,18 +374,8 @@ the sorted list.
 
 Write your code below and put the answer into the variable ANSWER.
 """
-def sortmultiplyer(l):
-    '''
-    Sorterar och multiplicerar lista med 10
-    '''
-    l.sort()
-    newlist = []
-    for element in l:
-        newlist = newlist + [element*10]
-    return newlist
 
-list19 = [67, 50, 2, 39, 15]
-ANSWER = sortmultiplyer(list19)
+ANSWER = "Replace this text with the variable holding the answer."
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -420,20 +391,8 @@ descending.
 
 Write your code below and put the answer into the variable ANSWER.
 """
-def sortmultioddeven(l):
-    '''
-    Sorterar i descending order och multiplicerar beroende på jämnt eller udda tal
-    '''
-    newlist = []
-    for element in l:
-        if element%2 == 0:
-            newlist = newlist + [element*3]
-        else:
-            newlist = newlist + [element+8]
-    newlist.sort(reverse=True)
-    return newlist
-list20 = [123, 4, 125, 69, 155]
-ANSWER = sortmultioddeven(list20)
+
+ANSWER = "Replace this text with the variable holding the answer."
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.

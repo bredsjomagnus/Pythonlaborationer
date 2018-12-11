@@ -44,8 +44,9 @@ with the resulting dictionary.
 Write your code below and put the answer into the variable ANSWER.
 """
 
+phonebook = {"Chandler": 55523645, "Monica": 55564452, "Ross": 55545872}
 
-ANSWER = "Replace this text with the variable holding the answer."
+ANSWER = phonebook
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -59,7 +60,7 @@ How many items are there in the dictionary?
 Write your code below and put the answer into the variable ANSWER.
 """
 
-ANSWER = "Replace this text with the variable holding the answer."
+ANSWER = len(phonebook)
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -74,7 +75,7 @@ Use the 'get()' method on your phonebook and answer with the phonenumber of
 Write your code below and put the answer into the variable ANSWER.
 """
 
-ANSWER = "Replace this text with the variable holding the answer."
+ANSWER = phonebook.get("Ross")
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -87,8 +88,8 @@ Get all keys from the dictionary and return them in a sorted list.
 
 Write your code below and put the answer into the variable ANSWER.
 """
-
-ANSWER = "Replace this text with the variable holding the answer."
+sorted_phonebook = sorted(phonebook)
+ANSWER = sorted_phonebook
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -102,8 +103,8 @@ Get all values from the dictionary and return them in a sorted list.
 Write your code below and put the answer into the variable ANSWER.
 """
 
-
-ANSWER = "Replace this text with the variable holding the answer."
+sorted_phonebookvalues = sorted(phonebook.values())
+ANSWER = sorted_phonebookvalues
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -117,9 +118,12 @@ Answer with the return boolean value.
 
 Write your code below and put the answer into the variable ANSWER.
 """
+if "Ross" in phonebook:
+    boo = True
+else:
+    boo = False
 
-
-ANSWER = "Replace this text with the variable holding the answer."
+ANSWER = boo
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -133,11 +137,14 @@ dictionary. Answer with the return boolean value.
 
 Write your code below and put the answer into the variable ANSWER.
 """
+if 55545872 in phonebook.values():
+    boo2 = True
+else:
+    boo2 = False
 
 
 
-
-ANSWER = "Replace this text with the variable holding the answer."
+ANSWER = boo2
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -153,9 +160,13 @@ resulting string.
 
 Write your code below and put the answer into the variable ANSWER.
 """
+i = 0
+s = ""
+for contact in phonebook:
+    s = s + sorted_phonebook[i]+" "+ str(phonebook[sorted_phonebook[i]])+'\n'
+    i += 1
 
-
-ANSWER = "Replace this text with the variable holding the answer."
+ANSWER = s
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -170,9 +181,13 @@ dictionary.
 
 Write your code below and put the answer into the variable ANSWER.
 """
+i = 0
+s2 = ""
+for contact in phonebook:
+    s2 = "+1-" + str(phonebook[contact])
+    phonebook[contact] = s2
 
-
-ANSWER = "Replace this text with the variable holding the answer."
+ANSWER = phonebook
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -186,8 +201,9 @@ the resulting dictionary.
 
 Write your code below and put the answer into the variable ANSWER.
 """
-
-ANSWER = "Replace this text with the variable holding the answer."
+phonebook = {"Chandler": 55523645, "Monica": 55564452, "Ross": 55545872}
+phonebook.pop("Ross")
+ANSWER = phonebook
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -202,8 +218,8 @@ dictionary.
 Write your code below and put the answer into the variable ANSWER.
 """
 
-
-ANSWER = "Replace this text with the variable holding the answer."
+phonebook["Ross"] = 55545872
+ANSWER = phonebook
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -225,8 +241,9 @@ the tuple as an integer.
 Write your code below and put the answer into the variable ANSWER.
 """
 
+tp = ('bear', 65, 6.47, 'chair', 5)
 
-ANSWER = "Replace this text with the variable holding the answer."
+ANSWER = len(tp)
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -241,8 +258,8 @@ variable: 'd'. Hint: a,b,c = tuple.
 
 Write your code below and put the answer into the variable ANSWER.
 """
-
-ANSWER = "Replace this text with the variable holding the answer."
+a, b, c, d, e = tp
+ANSWER = d
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -257,9 +274,10 @@ integer.
 
 Write your code below and put the answer into the variable ANSWER.
 """
+l = [45, 22, 2, 498, 78]
+tp2 = tuple(l[0:2])
 
-
-ANSWER = "Replace this text with the variable holding the answer."
+ANSWER = tp2[0]
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -274,10 +292,20 @@ answer with the first three elements in a comma-separated string.
 
 Write your code below and put the answer into the variable ANSWER.
 """
+tp3 = ("moose", 12, 1.98, "table", 7)
+l2 = list(tp3)
 
+l2[1] = "elevator"
+tp3 = tuple(l2)
+s = ""
+c = 0
+while c < 2:
+    s = s + str(tp3[c]) + ","
+    c += 1
+s = s + str(tp3[2])
    
 
-ANSWER = "Replace this text with the variable holding the answer."
+ANSWER = s
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.

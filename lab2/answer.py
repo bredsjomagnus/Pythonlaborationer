@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
+CREDIT TO MIKAEL ROOS TEACHER AT BTH FOR THESE LABORATIONS
 ae949ef06c305dd1bd7f4af13bf76a11
 python
 lab2

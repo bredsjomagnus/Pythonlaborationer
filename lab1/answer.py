@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
+CREDIT TO MIKAEL ROOS TEACHER AT BTH FOR THESE LABORATIONS
 7cf244cfbcc55a41070a891838e397b4
 python
 Elevensval - Labb 1

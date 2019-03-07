@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""                                               
+"""
+CREDIT TO MIKAEL ROOS TEACHER AT BTH FOR THESE LABORATIONS                                               
 Python dbwebb module for asserting and auto correcting labs.
 
 It reads the answers from a json-file and use it

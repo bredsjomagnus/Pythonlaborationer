@@ -119,13 +119,8 @@ decimals.
 
 Write your code below and put the answer into the variable ANSWER.
 """
-floatOne = 98.76
-floatTwo = 21.93
-result = floatOne - floatTwo
 
-result = round(result, 2)
-
-ANSWER = result
+ANSWER = "Replace this text with the variable holding the answer."
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -186,12 +181,7 @@ Add the word: 'device' to the word: 'beach' and answer with the result.
 Write your code below and put the answer into the variable ANSWER.
 """
 
-word1 = 'beach'
-word2 = 'device'
-result = word1 + word2
-
-
-ANSWER = result
+ANSWER = "Replace this text with the variable holding the answer."
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -211,8 +201,8 @@ Answer with the boolean value of: 70 is less than 259.
 
 Write your code below and put the answer into the variable ANSWER.
 """
-result = 70 < 259
-ANSWER = result
+
+ANSWER = "Replace this text with the variable holding the answer."
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -239,8 +229,8 @@ Answer with the boolean value of: 70 == 444.
 
 Write your code below and put the answer into the variable ANSWER.
 """
-result = 70 == 444
-ANSWER = result
+
+ANSWER = "Replace this text with the variable holding the answer."
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -271,12 +261,7 @@ with the string: 'nothing'.
 Write your code below and put the answer into the variable ANSWER.
 """
 
-if result >= 11:
-    dices = 'big'
-else:
-    dices = 'nothing'
-
-ANSWER = dices
+ANSWER = "Replace this text with the variable holding the answer."
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -292,19 +277,8 @@ should not make more checks.
 
 Write your code below and put the answer into the variable ANSWER.
 """
-d1 = 1
-d2 = 6
-d3 = 6
-result = d1 + d2 + d3
 
-if d1 == d2 == d3:
-    dices = 'triple'
-elif result >= 11:
-    dices = 'big'
-else: 
-    dices = 'small'
-
-ANSWER = dices
+ANSWER = "Replace this text with the variable holding the answer."
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -326,12 +300,7 @@ Use max() to find the largest number in the serie:
 Write your code below and put the answer into the variable ANSWER.
 """
 
-serie = (6,8,95,2,12,152,4,78,621,45)
-print(type(serie))
-
-maximum = max(serie)
-
-ANSWER = maximum
+ANSWER = "Replace this text with the variable holding the answer."
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -360,10 +329,8 @@ result.
 
 Write your code below and put the answer into the variable ANSWER.
 """
-word1 = 'error'
-count = len(word1)
 
-ANSWER = count
+ANSWER = "Replace this text with the variable holding the answer."
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -377,13 +344,8 @@ with the result.
 
 Write your code below and put the answer into the variable ANSWER.
 """
-number = 353
-stringnumber = str(number)
 
-result = 'error' + stringnumber
-
-
-ANSWER = result
+ANSWER = "Replace this text with the variable holding the answer."
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
@@ -397,12 +359,8 @@ beginning of the word: 'error'. Answer with the result.
 
 Write your code below and put the answer into the variable ANSWER.
 """
-number = 640.49
-intnumber = int(number)
-stringnumber = str(intnumber)
 
-result = stringnumber + 'error'
-ANSWER = result
+ANSWER = "Replace this text with the variable holding the answer."
 
 # Is the answer as expected?
 # When you get stuck - change False to True to get a hint.
